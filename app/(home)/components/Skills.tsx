@@ -28,15 +28,15 @@ const Skills = () => {
       Icon: SiNextdotjs,
     },
     {
-      text: "Tailwind",
-      Icon: SiTailwindcss,
-    },
-    {
       text: "Typescript",
       Icon: SiTypescript,
     },
     {
-      text: "JavaScript",
+      text: "Tailwindcss",
+      Icon: SiTailwindcss,
+    },
+    {
+      text: "Javascript",
       Icon: SiJavascript,
     },
     {
@@ -85,7 +85,7 @@ const Skills = () => {
     },
   ];
   return (
-    <div className="max-w-5xl mx-auto px-8">
+    <div className="max-w-7xl mx-auto px-8">
       <Title
         text="Expertise ⚡"
         className="flex flex-col items-center justify-center -rotate-3"
