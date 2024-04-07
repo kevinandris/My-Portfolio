@@ -17,11 +17,11 @@ const Navbar = ({ className }: { className?: string }) => {
       label: "Github",
       Icon: FaGithub,
     },
-    {
-      link: "https://www.linkedIn.com/in/kevinandris/",
-      label: "x",
-      Icon: SiX,
-    },
+    // {
+    //   link: "https://www.linkedIn.com/in/kevinandris/",
+    //   label: "x",
+    //   Icon: SiX,
+    // },
   ];
 
   return (
