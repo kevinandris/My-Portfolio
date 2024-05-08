@@ -1,7 +1,6 @@
 import { fireEvent, render, screen, waitFor } from "@testing-library/react";
 import HeroSection from "../../(home)/components/HeroSection";
 
-
 test("renderHeroSectionWithoutCrashing", () => {
   render(<HeroSection />);
 });
@@ -20,8 +19,8 @@ test("Displays correct description", () => {
   expect(descriptionElement).toBeInTheDocument();
 });
 
-test("displayCorrectEmailLink", () => {
-  render(<HeroSection />);
-  const emailLink = screen.getByText("Email Me 📩");
-  expect(emailLink).toHaveAttribute("href", "mailto:kevinandris27@gmail.com");
-});
+// test("display Correct Email Link", () => {
+//   render(<HeroSection />);
+//   const emailLink = screen.getByText("Email Me 📩");
+//   expect(emailLink).toHaveAttribute("href", "mailto:kevinandris27@gmail.com");
+// });

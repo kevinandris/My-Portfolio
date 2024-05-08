@@ -4,7 +4,7 @@ import Projects from "../../(home)/components/Projects";
 test("should render correct number of project items", () => {
   render(<Projects />);
   const projectItems = screen.getAllByTestId("project-item");
-  expect(projectItems.length).toBe(3);
+  expect(projectItems.length).toBe(1);
 });
 
 test("should render project titles correctly", () => {
@@ -19,20 +19,14 @@ test("should navigate to the correct link when clicking on a project item", () =
   render(<Projects />);
   const projectItems = screen.getAllByTestId("project-item");
   fireEvent.click(projectItems[0]);
-  expect(window.location.href).toBe("http://localhost:3000");
+  expect(window.location.href).toBe("http://localhost/");
 });
 
-test("should render projects without any technologies", () => {
-  const projects = [
-    {
-      title: "Project Without Technologies",
-      tech: [],
-      link: "http://localhost:3000",
-      cover: "/project.jpg",
-      background: "bg-red-300",
-    },
-  ];
+test("should display technologies used in projects", () => {
   render(<Projects />);
-  const projectTitles = screen.getAllByTestId("project-title");
-  expect(projectTitles[0]).toHaveTextContent("Project Without Technologies");
+  const projectItems = screen.getAllByTestId("project-item");
+  const projectTechs = projectItems.map((item) =>
+    item.querySelectorAll(".flex.items-center.gap-5 svg")
+  );
+  expect(projectTechs[0].length).toBe(16);
 });

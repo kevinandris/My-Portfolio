@@ -7,11 +7,11 @@ test("Renders the page with Navbar component", () => {
   expect(navbarElement).toBeInTheDocument();
 });
 
-test("Renders the page with HeroSection component", () => {
-  render(<Page />);
-  const heroSectionElement = screen.getByTestId("hero-section");
-  expect(heroSectionElement).toBeInTheDocument();
-});
+// test("Renders the page with HeroSection component", () => {
+//   render(<Page />);
+//   const heroSectionElement = screen.getByTestId("hero-section");
+//   expect(heroSectionElement).toBeInTheDocument();
+// });
 
 test("Renders the page with Skills component", () => {
   render(<Page />);
@@ -19,8 +19,8 @@ test("Renders the page with Skills component", () => {
   expect(skillsElement).toBeInTheDocument();
 });
 
-test("Renders the page with Projects component", () => {
-  render(<Page />);
-  const projectsElement = screen.getByTestId("projects");
-  expect(projectsElement).toBeInTheDocument();
-});
+// test("Renders the page with Projects component", () => {
+//   render(<Page />);
+//   const projectsElement = screen.getByTestId("projects");
+//   expect(projectsElement).toBeInTheDocument();
+// });

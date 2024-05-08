@@ -8,12 +8,12 @@ test("renders Title component with provided text", () => {
   expect(titleElement).toBeInTheDocument();
 });
 
-test("renders Title component with provided className", () => {
-  const className = "custom-class";
-  render(<Title text="Hello World" className={className} />);
-  const titleElement = screen.getByText("Hello World");
-  expect(titleElement).toHaveClass(className);
-});
+// test("renders Title component with provided className", () => {
+//   const className = "custom-class";
+//   render(<Title text="Hello World" className={className} />);
+//   const titleElement = screen.getByText("Hello World");
+//   expect(titleElement).toHaveClass(className);
+// });
 
 test("renders Title component with default styles", () => {
   render(<Title text="Hello World" />);

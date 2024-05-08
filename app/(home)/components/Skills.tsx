@@ -9,7 +9,6 @@ import {
   SiGithub,
   SiHtml5,
   SiJavascript,
-  SiMatterdotjs,
   SiMongodb,
   SiMui,
   SiMysql,
@@ -85,7 +84,7 @@ const Skills = () => {
     },
   ];
   return (
-    <div className="max-w-7xl mx-auto px-8">
+    <div data-testid="skill" className="max-w-7xl mx-auto px-8">
       <Title
         text="Expertise ⚡"
         className="flex flex-col items-center justify-center -rotate-3"
