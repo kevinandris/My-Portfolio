@@ -20,7 +20,7 @@ const Projects = () => {
     {
       title: "Movie Trailer App",
       tech: [SiNextdotjs, SiTypescript, SiTailwindcss, SiMongodb, SiMongoose],
-      link: "http://localhost:3000",
+      link: "https://the-movie-trailer.vercel.app",
       cover: "/movie.jpg",
       background: "bg-red-300",
     },
