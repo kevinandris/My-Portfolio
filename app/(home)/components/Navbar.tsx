@@ -9,7 +9,7 @@ import ThemeToggler from "../../../components/ThemeToggler";
 const Navbar = ({ className }: { className?: string }) => {
   const socials = [
     {
-      link: "https://www.linkedin.com/in/kevin-andris-138130141/",
+      link: "https://www.linkedin.com/in/kevin-pudihang-138130141/",
       label: "LinkedIn",
       Icon: SiLinkedin,
     },
