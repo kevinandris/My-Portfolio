@@ -43,7 +43,7 @@ const Projects = () => {
     {
       title: "Movie Trailer App",
       tech: [SiNextdotjs, SiTypescript, SiTailwindcss, SiMongodb, SiMongoose],
-      link: "keipix.vercel.app",
+      link: "https://keipix.vercel.app",
       cover: "/movie.jpg",
       background: "bg-red-300",
     },
