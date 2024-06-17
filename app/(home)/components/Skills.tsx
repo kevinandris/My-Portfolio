@@ -4,7 +4,9 @@ import Title from "./Title";
 import {
   SiAwslambda,
   SiCss3,
+  SiDocker,
   SiExpress,
+  SiFirebase,
   SiGit,
   SiGithub,
   SiHtml5,
@@ -14,6 +16,7 @@ import {
   SiMysql,
   SiNextdotjs,
   SiNodedotjs,
+  SiPrisma,
   SiReact,
   SiSass,
   SiTailwindcss,
@@ -35,16 +38,16 @@ const Skills = () => {
       Icon: SiTailwindcss,
     },
     {
-      text: "Javascript",
-      Icon: SiJavascript,
-    },
-    {
       text: "HTML",
       Icon: SiHtml5,
     },
     {
       text: "CSS",
       Icon: SiCss3,
+    },
+    {
+      text: "Javascript",
+      Icon: SiJavascript,
     },
     {
       text: "ReactJS",
@@ -63,12 +66,16 @@ const Skills = () => {
       Icon: SiNodedotjs,
     },
     {
-      text: "Sass",
-      Icon: SiSass,
+      text: "MySQL",
+      Icon: SiMysql,
     },
     {
-      text: "MaterialUI",
-      Icon: SiMui,
+      text: "Firebase",
+      Icon: SiFirebase,
+    },
+    {
+      text: "Prisma",
+      Icon: SiPrisma,
     },
     {
       text: "Git",
@@ -79,8 +86,16 @@ const Skills = () => {
       Icon: SiGithub,
     },
     {
-      text: "MySQL",
-      Icon: SiMysql,
+      text: "Sass",
+      Icon: SiSass,
+    },
+    {
+      text: "MaterialUI",
+      Icon: SiMui,
+    },
+    {
+      text: "Docker",
+      Icon: SiDocker,
     },
   ];
   return (

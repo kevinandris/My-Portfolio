@@ -3,8 +3,10 @@ import {
   SiExpress,
   SiMongodb,
   SiMongoose,
+  SiMysql,
   SiNextdotjs,
   SiNodedotjs,
+  SiPrisma,
   SiReact,
   SiSass,
   SiTailwindcss,
@@ -18,11 +20,18 @@ import { DirectionAwareHover } from "@/components/ui/direction-aware-hover";
 const Projects = () => {
   const projects = [
     {
-      title: "Movie Trailer App",
-      tech: [SiNextdotjs, SiTypescript, SiTailwindcss, SiMongodb, SiMongoose],
-      link: "https://the-movie-trailer-app.vercel.app",
-      cover: "/movie.jpg",
-      background: "bg-red-300",
+      title: "Educational Course App",
+      tech: [
+        SiNextdotjs,
+        SiTypescript,
+        SiPrisma,
+        SiMysql,
+        SiTailwindcss,
+        SiNodedotjs,
+      ],
+      link: "https://keipyhub.vercel.app",
+      cover: "/study.jpg",
+      background: "bg-orange-200",
     },
     {
       title: "Book Store App",
@@ -32,11 +41,11 @@ const Projects = () => {
       background: "bg-purple-300",
     },
     {
-      title: "Accommodation App",
-      tech: [SiReact, SiExpress, SiNodedotjs, SiMongodb, SiMongoose, SiSass],
-      link: "http://localhost:3000",
-      cover: "/real_estate.jpg",
-      background: "bg-green-300",
+      title: "Movie Trailer App",
+      tech: [SiNextdotjs, SiTypescript, SiTailwindcss, SiMongodb, SiMongoose],
+      link: "keipix.vercel.app",
+      cover: "/movie.jpg",
+      background: "bg-red-300",
     },
   ];
   return (
