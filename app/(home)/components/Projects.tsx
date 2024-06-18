@@ -36,7 +36,7 @@ const Projects = () => {
     {
       title: "Book Store App",
       tech: [SiReact, SiExpress, SiNodedotjs, SiMongodb, SiMongoose],
-      link: "http://localhost:3000",
+      link: "https://keipy.vercel.app",
       cover: "/library.jpg",
       background: "bg-purple-300",
     },
