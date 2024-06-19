@@ -29,7 +29,7 @@ const Projects = () => {
         SiTailwindcss,
         SiNodedotjs,
       ],
-      link: "https://keipyhub.vercel.app",
+      link: "https://www.keipyhub.com",
       cover: "/study.jpg",
       background: "bg-orange-200",
     },
