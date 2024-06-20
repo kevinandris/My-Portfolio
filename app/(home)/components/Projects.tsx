@@ -8,7 +8,6 @@ import {
   SiNodedotjs,
   SiPrisma,
   SiReact,
-  SiSass,
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";

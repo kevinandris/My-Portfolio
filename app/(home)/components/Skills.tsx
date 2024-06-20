@@ -26,15 +26,15 @@ import {
 const Skills = () => {
   const skills = [
     {
-      text: "NextJS",
+      text: "Next.js",
       Icon: SiNextdotjs,
     },
     {
-      text: "Typescript",
+      text: "TypeScript",
       Icon: SiTypescript,
     },
     {
-      text: "Tailwindcss",
+      text: "Tailwind CSS",
       Icon: SiTailwindcss,
     },
     {
@@ -46,11 +46,11 @@ const Skills = () => {
       Icon: SiCss3,
     },
     {
-      text: "Javascript",
+      text: "JavaScript",
       Icon: SiJavascript,
     },
     {
-      text: "ReactJS",
+      text: "React.js",
       Icon: SiReact,
     },
     {
@@ -58,11 +58,11 @@ const Skills = () => {
       Icon: SiMongodb,
     },
     {
-      text: "ExpressJS",
+      text: "Express.js",
       Icon: SiExpress,
     },
     {
-      text: "NodeJs",
+      text: "Node.js",
       Icon: SiNodedotjs,
     },
     {
