@@ -60,7 +60,7 @@ const Projects = () => {
       >
         {projects.map((project, index) => {
           return (
-            <Link href={project.link} key={index}>
+            <Link href={project.link} key={index} target="_blank">
               <div className={cn("p-5 rounded-md", project.background)}>
                 <DirectionAwareHover
                   imageUrl={project.cover}
