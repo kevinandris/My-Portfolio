@@ -5,7 +5,7 @@ import Title from "./Title";
 
 const HeroSection = () => {
   return (
-    <div className=" min-h-[60vh] flex flex-col-reverse gap-14 lg:gap-0 lg:flex-row items-center justify-between animate-move-up">
+    <div className=" min-h-[40vh] flex flex-col-reverse gap-14 lg:gap-0 lg:flex-row items-center justify-between animate-move-up">
       <div className="space-y-10 text-center lg:text-left">
         <h1 className="text-4xl lg:text-7xl font-bold">
           Hi there, <br />{" "}
@@ -21,7 +21,7 @@ const HeroSection = () => {
 
         <Link
           href={"mailto:kevinandris27@gmail.com"}
-          className="inline-block group md:h-60"
+          className="inline-block group md:h-40"
         >
           <Title text="Email Me 📩" />
         </Link>
