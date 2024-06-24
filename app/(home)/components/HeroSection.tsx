@@ -42,9 +42,9 @@ const HeroSection = () => {
           <div className="glow absolute top-[40%] right-1/2 -z-10"></div>
         </div>
 
-        <div className="absolute bottom-5 sm:bottom-14 left-0 sm:-left-10 mb-40">
+        <div className="absolute bottom-5 sm:bottom-14 left-0 sm:-left-10 mb-20">
           <MovingBorderBtn borderRadius="0.5rem" className="p-3 font-semibold">
-            <p> 💻 Looking for an internship </p>
+            <p> 💻 Looking for an internship or graduate programme </p>
           </MovingBorderBtn>
         </div>
       </div>
