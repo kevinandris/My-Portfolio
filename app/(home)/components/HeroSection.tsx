@@ -27,7 +27,7 @@ const HeroSection = () => {
         </Link>
       </div>
 
-      <div className="relative">
+      <div className="relative ">
         <div className="w-72 h-72 space-y-3 -rotate-[30deg] mb-40">
           <div className="flex gap-3 translate-x-8">
             <div className="w-32 h-32 rounded-full bg-cyan-500"></div>
@@ -42,7 +42,7 @@ const HeroSection = () => {
           <div className="glow absolute top-[40%] right-1/2 -z-10"></div>
         </div>
 
-        <div className="absolute bottom-5 sm:bottom-14 left-0 sm:-left-10 mb-20">
+        <div className="absolute bottom-5 sm:bottom-14 left-0 sm:-left-10 mb-20 animate-bounce">
           <MovingBorderBtn borderRadius="0.5rem" className="p-3 font-semibold">
             <p> 💻 Looking for an internship or graduate programme </p>
           </MovingBorderBtn>
