@@ -99,10 +99,7 @@ const Skills = () => {
     },
   ];
   return (
-    <div
-      data-testid="skill"
-      className="max-w-7xl mx-auto px-8 sm: animate-move-down"
-    >
+    <div data-testid="skill" className="max-w-7xl mx-auto animate-move-down">
       <Title
         text="Expertise ⚡"
         className="flex flex-col items-center justify-center -rotate-3"

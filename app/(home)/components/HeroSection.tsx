@@ -27,7 +27,7 @@ const HeroSection = () => {
         </Link>
       </div>
 
-      <div className="relative ">
+      <div className="relative">
         <div className="w-72 h-72 space-y-3 -rotate-[30deg] mb-40">
           <div className="flex gap-3 translate-x-8">
             <div className="w-32 h-32 rounded-full bg-cyan-500"></div>

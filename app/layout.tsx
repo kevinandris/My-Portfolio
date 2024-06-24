@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import { Space_Grotesk } from "next/font/google";
+// import { Space_Grotesk } from "next/font/google";
+import { Rubik } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
 
-const space_Grotesk = Space_Grotesk({ subsets: ["latin"] });
+const rubik = Rubik({ weight: "400", subsets: ["arabic"] });
 
 export const metadata: Metadata = {
   title: "Kevin Portfolio",
@@ -17,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={space_Grotesk.className}>
+      <body className={rubik.className}>
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
