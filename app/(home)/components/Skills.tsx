@@ -12,6 +12,7 @@ import {
   SiHtml5,
   SiJavascript,
   SiMongodb,
+  SiMongoose,
   SiMui,
   SiMysql,
   SiNextdotjs,
@@ -20,8 +21,10 @@ import {
   SiReact,
   SiSass,
   SiTailwindcss,
+  SiTrello,
   SiTypescript,
 } from "react-icons/si";
+import ThemeToggler from "@/components/ThemeToggler";
 
 const Skills = () => {
   const skills = [
@@ -38,11 +41,11 @@ const Skills = () => {
       Icon: SiTailwindcss,
     },
     {
-      text: "HTML",
+      text: "HTML5",
       Icon: SiHtml5,
     },
     {
-      text: "CSS",
+      text: "CSS3",
       Icon: SiCss3,
     },
     {
@@ -97,9 +100,22 @@ const Skills = () => {
       text: "Docker",
       Icon: SiDocker,
     },
+    {
+      text: "Mongoose",
+      Icon: SiMongoose,
+    },
+    {
+      text: "Trello",
+      Icon: SiTrello,
+    },
+    {
+      text: "AWS",
+      Icon: SiAwslambda,
+    },
   ];
   return (
     <div data-testid="skill" className="max-w-7xl mx-auto animate-move-down">
+      {/* <ThemeToggler /> */}
       <Title
         text="Expertise ⚡"
         className="flex flex-col items-center justify-center -rotate-3"
