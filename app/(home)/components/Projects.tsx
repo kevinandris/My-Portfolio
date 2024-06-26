@@ -50,7 +50,7 @@ const Projects = () => {
   return (
     <div className="py-10 p-5 sm:p-0 animate-move-down">
       <Title
-        text="Projects 🛠️"
+        text="My Projects 🛠️"
         className="flex flex-col items-center justify-center rotate-3 "
       />
 

@@ -114,8 +114,10 @@ const Skills = () => {
     },
   ];
   return (
-    <div data-testid="skill" className="max-w-7xl mx-auto animate-move-down">
-      {/* <ThemeToggler /> */}
+    <div
+      data-testid="skill"
+      className="max-w-7xl mx-auto animate-move-down sm:max-w-full"
+    >
       <Title
         text="Expertise ⚡"
         className="flex flex-col items-center justify-center -rotate-3"
