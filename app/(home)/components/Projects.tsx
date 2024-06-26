@@ -8,6 +8,7 @@ import {
   SiNodedotjs,
   SiPrisma,
   SiReact,
+  SiRedux,
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
@@ -34,7 +35,7 @@ const Projects = () => {
     },
     {
       title: "Book Store App",
-      tech: [SiReact, SiExpress, SiNodedotjs, SiMongodb, SiMongoose],
+      tech: [SiReact, SiRedux, SiExpress, SiNodedotjs, SiMongodb, SiMongoose],
       link: "https://keipy.vercel.app",
       cover: "/library.jpg",
       background: "bg-purple-300",
