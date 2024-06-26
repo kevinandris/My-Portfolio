@@ -20,6 +20,7 @@ import { DirectionAwareHover } from "@/components/ui/direction-aware-hover";
 const Projects = () => {
   const projects = [
     {
+      id: 1,
       title: "Educational Course App",
       tech: [
         SiNextdotjs,
@@ -35,6 +36,7 @@ const Projects = () => {
       background: "bg-orange-200",
     },
     {
+      id: 2,
       title: "Book Store App",
       tech: [SiReact, SiRedux, SiExpress, SiNodedotjs, SiMongodb, SiMongoose],
       githubLink: "https://github.com/kevinandris/Bookstore_app",
@@ -43,6 +45,7 @@ const Projects = () => {
       background: "bg-purple-300",
     },
     {
+      id: 3,
       title: "Movie Trailer App",
       tech: [SiNextdotjs, SiTypescript, SiTailwindcss, SiMongodb, SiMongoose],
       githubLink: "https://github.com/kevinandris/Movie_trailers_app",
@@ -64,42 +67,35 @@ const Projects = () => {
       >
         {projects.map((project, index) => {
           return (
-            <>
-              <div className="justify-center items-center flex flex-col">
-                <Link href={project.link} key={index} target="_blank">
-                  <div className={cn("p-5 rounded-md", project.background)}>
-                    <DirectionAwareHover
-                      imageUrl={project.cover}
-                      className="w-full h-50 space-y-5 cursor-grab"
-                    >
-                      <div className="space-y-5">
-                        <h1
-                          data-testid="project-title"
-                          className="text-2xl font-semibold"
-                        >
-                          {project.title}
-                        </h1>
-                        <div className="flex items-center gap-5">
-                          {project.tech.map((Icon, index) => {
-                            return <Icon className="w-8 h-8" key={index} />;
-                          })}
-                        </div>
+            <div className="justify-center items-center flex flex-col">
+              <Link href={project.link} key={index} target="_blank">
+                <div className={cn("p-5 rounded-md", project.background)}>
+                  <DirectionAwareHover
+                    imageUrl={project.cover}
+                    className="w-full h-50 space-y-5 cursor-grab"
+                  >
+                    <div className="space-y-5">
+                      <h1
+                        data-testid="project-title"
+                        className="text-2xl font-semibold"
+                      >
+                        {project.title}
+                      </h1>
+                      <div className="flex items-center gap-5">
+                        {project.tech.map((Icon, index) => {
+                          return <Icon className="w-8 h-8" key={index} />;
+                        })}
                       </div>
-                    </DirectionAwareHover>
-                  </div>
-                </Link>
-                <Link
-                  href={project.githubLink}
-                  key={index}
-                  target="_blank"
-                  legacyBehavior={true}
-                >
-                  <button className="bg-emerald-600 text-white-300 w-[10rem] rounded-md py-2 mt-4 hover:bg-emerald-700 transition-all duration-500">
-                    Source Code
-                  </button>
-                </Link>
-              </div>
-            </>
+                    </div>
+                  </DirectionAwareHover>
+                </div>
+              </Link>
+              <Link href={project.githubLink} key={index} target="_blank">
+                <button className="bg-emerald-600 text-white-300 w-[10rem] rounded-md py-2 mt-4 hover:bg-emerald-700 transition-all duration-500">
+                  Source Code
+                </button>
+              </Link>
+            </div>
           );
         })}
       </div>
