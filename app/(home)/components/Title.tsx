@@ -7,8 +7,8 @@ const Title = ({ text, className }: { text: string; className?: string }) => {
         {text}
       </h1>
 
-      <div className="w-40 h-2 bg-red-600 rounded-full "></div>
-      <div className="w-40  h-2 bg-blue-600 rounded-full translate-x-2"></div>
+      <div className="w-60 h-2 bg-red-600 rounded-full "></div>
+      <div className="w-60  h-2 bg-blue-600 rounded-full translate-x-2"></div>
     </div>
   );
 };
