@@ -65,37 +65,40 @@ const Projects = () => {
         data-testid="project-item"
         className="grid grid-cols-1 sm:grid-cols-2 pt-20 gap-5"
       >
-        {projects.map((project, index) => {
+        {projects.map((project) => {
           return (
-            <div className="justify-center items-center flex flex-col">
-              <Link href={project.link} key={index} target="_blank">
-                <div className={cn("p-5 rounded-md", project.background)}>
-                  <DirectionAwareHover
-                    imageUrl={project.cover}
-                    className="w-full h-50 space-y-5 cursor-grab"
-                  >
-                    <div className="space-y-5">
-                      <h1
-                        data-testid="project-title"
-                        className="text-2xl font-semibold"
-                      >
-                        {project.title}
-                      </h1>
-                      <div className="flex items-center gap-5">
-                        {project.tech.map((Icon, index) => {
-                          return <Icon className="w-8 h-8" key={index} />;
-                        })}
-                      </div>
+            <Link
+              href={project.link}
+              key={project.id}
+              target="_blank"
+              className="justify-center items-center flex flex-col"
+            >
+              <div className={cn("p-5 rounded-md", project.background)}>
+                <DirectionAwareHover
+                  imageUrl={project.cover}
+                  className="w-full h-50 space-y-5 cursor-grab"
+                >
+                  <div className="space-y-5">
+                    <h1
+                      data-testid="project-title"
+                      className="text-2xl font-semibold"
+                    >
+                      {project.title}
+                    </h1>
+                    <div className="flex items-center gap-5">
+                      {project.tech.map((Icon) => {
+                        return <Icon className="w-8 h-8" key={project.id} />;
+                      })}
                     </div>
-                  </DirectionAwareHover>
-                </div>
-              </Link>
-              <Link href={project.githubLink} key={index} target="_blank">
+                  </div>
+                </DirectionAwareHover>
+              </div>
+              <Link key={project.id} href={project.githubLink} legacyBehavior>
                 <button className="bg-emerald-600 text-white-300 w-[10rem] rounded-md py-2 mt-4 hover:bg-emerald-700 transition-all duration-500">
                   Source Code
                 </button>
               </Link>
-            </div>
+            </Link>
           );
         })}
       </div>
