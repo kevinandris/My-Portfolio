@@ -44,7 +44,7 @@ const HeroSection = () => {
 
         <div className="absolute bottom-5 sm:bottom-14 left-0 sm:-left-10 mb-20 animate-bounce">
           <MovingBorderBtn borderRadius="0.5rem" className="p-3 font-semibold">
-            <p> 💻 Looking for an internship or entry-level position </p>
+            <p> 💻 Available for an internship or entry-level position </p>
           </MovingBorderBtn>
         </div>
       </div>
