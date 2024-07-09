@@ -15,8 +15,8 @@ const HeroSection = () => {
         </h1>
 
         <p className="md:w-96 text-lg text-gray-300">
-          Fresh Software Engineer from Auckland University of Technology,
-          passionate to be a Fullstack Developer.
+          Fresh Software Engineer from Auckland University of Technology.
+          Seeking a full stack, frontend or backend role.
         </p>
 
         <Link
@@ -44,7 +44,7 @@ const HeroSection = () => {
 
         <div className="absolute bottom-5 sm:bottom-14 left-0 sm:-left-10 mb-20 animate-bounce">
           <MovingBorderBtn borderRadius="0.5rem" className="p-3 font-semibold">
-            <p> 💻 Looking for an internship or graduate programme </p>
+            <p> 💻 Looking for an internship or entry-level position </p>
           </MovingBorderBtn>
         </div>
       </div>
