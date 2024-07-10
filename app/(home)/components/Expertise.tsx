@@ -20,6 +20,7 @@ import {
   SiPrisma,
   SiReact,
   SiSass,
+  SiStyledcomponents,
   SiTailwindcss,
   SiTrello,
   SiTypescript,
@@ -93,12 +94,12 @@ const Skills = () => {
       Icon: SiSass,
     },
     {
-      text: "MaterialUI",
-      Icon: SiMui,
+      text: "Styled Comp",
+      Icon: SiStyledcomponents,
     },
     {
-      text: "Docker",
-      Icon: SiDocker,
+      text: "MaterialUI",
+      Icon: SiMui,
     },
     {
       text: "Mongoose",
