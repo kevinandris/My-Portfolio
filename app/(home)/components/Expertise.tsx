@@ -6,11 +6,13 @@ import {
   SiCss3,
   SiDocker,
   SiExpress,
+  SiFigma,
   SiFirebase,
   SiGit,
   SiGithub,
   SiHtml5,
   SiJavascript,
+  SiJest,
   SiMongodb,
   SiMongoose,
   SiMui,
@@ -20,6 +22,7 @@ import {
   SiPrisma,
   SiReact,
   SiSass,
+  SiSequelize,
   SiStyledcomponents,
   SiTailwindcss,
   SiTrello,
@@ -82,6 +85,10 @@ const Skills = () => {
       Icon: SiPrisma,
     },
     {
+      text: "Sequelize",
+      Icon: SiSequelize,
+    },
+    {
       text: "Git",
       Icon: SiGit,
     },
@@ -94,20 +101,28 @@ const Skills = () => {
       Icon: SiSass,
     },
     {
-      text: "Styled Comp",
+      text: "Styled Component",
       Icon: SiStyledcomponents,
-    },
-    {
-      text: "MaterialUI",
-      Icon: SiMui,
     },
     {
       text: "Mongoose",
       Icon: SiMongoose,
     },
     {
+      text: "MaterialUI",
+      Icon: SiMui,
+    },
+    {
+      text: "Jest",
+      Icon: SiJest,
+    },
+    {
       text: "Trello",
       Icon: SiTrello,
+    },
+    {
+      text: "Figma",
+      Icon: SiFigma,
     },
     {
       text: "AWS",
